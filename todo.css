@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+@media (min-width:768px) {
+
+
+
+    body {
+
+        background-color:#cef1f5;
+        display: flex;
+        /* flex-wrap: wrap; */
+        gap: 10vh;
+        justify-content: center;
+        /* align-items: center; */
+        margin-top: 5vh;
+
+
+
+    }
+
+
+    #left {
+
+
+        height: fit-content;
+        width: 40%;
+        background-color: #3F6184;
+        border-radius: 2vh;
+        padding: 2vh;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    #char_count {
+        font-size: 1.7vh;
+        margin-left: 1.3vh;
+    }
+
+    .d {
+        border: none;
+        outline: none;
+        padding: 2vh;
+        margin-block: 2vh;
+        border-radius: 2vh;
+        width: 95%;
+        height: 6vh;
+    }
+
+    .en {
+        border: none;
+        outline: none;
+        padding: 2vh;
+        margin-block: 2vh;
+        border-radius: 2vh;
+        width: 95%;
+        height: 6vh;
+    }
+
+    .des {
+        border: none;
+        outline: none;
+        padding: 2vh;
+        margin-block: 2vh;
+        border-radius: 2vh;
+        width: 95%;
+        height: 12vh;
+
+    }
+
+   
+
+    .button {
+        border-radius: 1.5vh;
+        height: 5vh;
+        width: fit-content;
+        /* margin-left: 30vh; */
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        padding: 1vh;
+        width: 96%;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+    }
+
+    
+
+    .button:hover{
+        box-shadow: 0 0 1vh #333131;
+
+    }
+    .buttondiv{
+        height: 5vh;
+        width: 100%;
+        /* background-color: #cef1f5; */
+        display: flex;
+        justify-content: center;
+        margin-top: 2vh;
+        margin-bottom: 0vh;
+    }
+
+
+
+    #right {
+
+        height: 90vh;
+        width: 40%;
+        background-color:#778899;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 2vh;
+    }
+
+    /* #m {
+        font-size: 5vh;
+        margin-right: 26vh;
+        margin-top: 2vh;
+    } */
+
+    .da {
+        margin-left: 1.5vh;
+        height: 3vh;
+        width: 16vh;
+        border-radius: 1vh;
+        border:none;
+        outline: none;
+        padding: 1vh;
+        gap: 1vh;
+        cursor: pointer;
+        
+    }
+    .da:hover {
+        /* background-color: rgb(131, 247, 160); */
+        box-shadow: 0 0 1vh #3e3d3d;
+        
+
+
+    }
+
+    .bu {
+        /* margin-left: 20vh; */
+        height: 3vh;
+        width: 11vh;
+        border-radius: 1vh;
+        border: none;
+        outline: none;
+        background-color: rgb(7, 7, 7);
+        color: white;
+        cursor: pointer;
+        
+        
+    }
+
+    .bu:hover {
+        /* background-color: rgb(131, 247, 160); */
+        box-shadow: 0 0 1vh #333131;
+        /* color: white; */
+
+
+    }
+
+    .eventdiv {
+        height: fit-content;
+        width: 28vw;
+        margin-top: 3.5vh;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-between;
+        /* padding: 0.8vh; */
+    }
+
+    
+
+
+    #box_con {
+        height: fit-content;
+        width: 80%;
+        background-color: #778899;
+        margin-top: 1vh;
+        overflow: scroll;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        overflow-x: hidden;
+        border-radius: 2vh;
+        margin-bottom: 4vh;
+
+
+    }
+
+    .box {
+        height: fit-content;
+        width: 100%;
+        background-color: white;
+        border-radius: 2vh;
+        margin-bottom: 2vh;
+        padding: 2vh;
+        margin-top: 4vh;
+    }
+
+
+    #box_con p {
+        margin-bottom: 1.8vh;
+        margin-top: 1vh;
+    }
+
+    
+
+    
+    .topdiv{
+        height: 4vh;
+        width: 100%;
+        /* background-color: #3F6184; */
+        float: left;
+        margin-bottom: 1vh;
+    }
+
+    .star{
+        height: 4vh;
+        width: 5%;
+        /* background-color: red; */
+        float: left;
+    }
+
+    .se{
+        height: 4vh;
+        width: 80%;
+        margin-left: 5%;
+        /* background-color: #ef6d1c; */
+        float: left; 
+    }
+
+    .font{
+        font-size: 2.5vh;
+    }
+
+    /* .arrow{
+        height: 4vh;
+        width: 5%;
+        background-color: aqua;
+        float: left;
+    } */
+
+    .gap{
+        height: 4vh;
+        width: 5%;
+        /* background-color: yellow; */
+        float: left;
+    }
+
+    .delicon{
+        height: 4vh;
+        width: 5%;
+        /* background-color: blue; */
+        float: left;
+    }
+
+    .hname{
+        margin-left: 5%;
+        
+    }
+
+    .dropdown{
+        display: grid;
+        text-align: center;
+    }
+
+    .describ{
+        padding: 2vh;
+        margin-left: 2%;
+        padding-top: 0%;
+        user-select: none;
+    }
+
+    .ri-arrow-down-double-fill{
+        cursor: pointer;
+    }
+
+
+    .box h4 {
+        margin-top: 1.2vh;
+        font-size: 1.8vh;
+        margin-left: 1.5vh;
+        font-weight: 550;
+    
+    }
+
+
+
+}
+
+
+
+@media (min-width:100px) and (max-width:768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+        background-color: greenyellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #left {
+        height: 70vh;
+        width: 80%;
+        background-color: blueviolet;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        border-radius: 2vh;
+        padding: 2vh;
+    }
+
+    #right {
+
+        height: 90vh;
+        width: 80%;
+        background-color: rgb(126, 217, 240);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 4vh;
+        border-radius: 2vh;
+
+
+
+
+    }
+
+    #nav {
+        height: 7vh;
+        width: 100%;
+        background-color: brown;
+        border-top-right-radius: 1vh;
+        border-top-left-radius: 1vh;
+
+
+    }
+
+    #box_con {
+        height: calc(80vh - 7vh);
+        width: 80%;
+        background-color: rgb(14, 202, 139);
+        margin-top: 5vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        padding-left: 5vh;
+        padding-right: 5vh;
+
+
+    }
+
+    .box {
+        height: 20vh;
+        width: 100%;
+        background-color: white;
+        border-radius: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+}
